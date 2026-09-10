@@ -110,3 +110,47 @@
 # NOT OPERATOR:
 # not True   # Returns False
 # not False  # Returns True
+
+
+
+# type() FUNCTION AND TYPECASTING:
+# type() function is used to determine the data type of a variable or value in Python
+# typecasting is the process of converting one data type to another
+
+# Example of type() function:
+# a = 5
+# print(type(a))  # Output will be <class 'int'>
+
+# b = 5.0
+# print(type(b))  # Output will be <class 'float'>
+
+# c = "Hello"
+# print(type(c))  # Output will be <class 'str'>
+
+# # Example of typecasting:
+# d = float(a)  # Converting integer to float
+# print(type(d))  # Output will be <class 'float'>
+# print(d)        # Output will be 5.0
+
+# e = int(b)    # Converting float to integer
+# print(type(e))  # Output will be <class 'int'>
+# # print(e)        # Output will be 5
+
+
+
+# input() FUNCTION:
+# The input() function is used to take input from the user
+# name = input("Enter your name: ")
+# print("Hello, " + name)
+
+# example of input() function:
+# age = input("Enter your age: ")
+# print("You are " + age + " years old.")
+
+# example 2:
+# weight = input("Enter your weight: ")
+# print("Your weight is " + weight + " kg.")
+
+# example 3:
+# height = input("Enter your height: ")
+# print("Your height is " + height + " cm.")

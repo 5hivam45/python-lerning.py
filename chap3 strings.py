@@ -21,3 +21,13 @@
   
 # sl[0:3]returns "shi"---characters from 0to3
 # sl[1:3]returns "hi"---characters from 1to3
+
+# NEGATIVE SLICING:
+# name="shivam"
+# print(name[0:3])
+# print(name[-4: -1])
+# print(name[1:4])
+
+name="shivam"
+print(name[:4]) #is same as print (name[0:4]) 
+print(name[1:]) #ia same as print (name[1:5])

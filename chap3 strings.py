@@ -28,6 +28,24 @@
 # print(name[-4: -1])
 # print(name[1:4])
 
-name="shivam"
-print(name[:4]) #is same as print (name[0:4]) 
-print(name[1:]) #ia same as print (name[1:5])
+# name="shivam"
+# print(name[:4]) #is same as print (name[0:4]) 
+# print(name[1:]) #ia same as print (name[1:5])
+
+
+# SLICING WITH SKIP VALUE
+# WE CAN PROVIDE A SKIP VALUE AS A PART OF OUR SLICE LIKE THIS :
+
+# word = "amazing"
+# word[1:6:2] #output "mzn"
+
+# a= "0123456789"
+# a[1:7:3] #output 14
+
+
+# STRING FUNCTION:
+# SOME OF THE MOSTLY USED FUNCTION PERFORME OPERATIONS ON OR MANIPULATE STRING ARE:
+
+# name="vidhi"
+# print(len(name))
+

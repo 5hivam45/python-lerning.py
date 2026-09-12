@@ -79,4 +79,14 @@
 # name="shivam is boy"
 # print(name.capitalize())
 
+# a='''Tere pyar mein
+# Tere pyar mein
+# Dil chaahta hai bas
+# Bheege bheege'''
+# print(a.find("Bheege"))
 
+# a='''Tere pyar mein
+# Tere pyar mein
+# Dil chaahta hai bas
+# Bheege bheege'''
+# print(a.count("Tere"))

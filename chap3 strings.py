@@ -72,4 +72,11 @@
 # a="shivam is bad boy"
 # print(a.replace("bad","good"))
 
+# a="shivam shivang ishan somil"
+# print(a.split())
+
+
+# name="shivam is boy"
+# print(name.capitalize())
+
 

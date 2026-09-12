@@ -1,5 +1,9 @@
 # STRING:
 # STRING IS A DATA TYPE IN PYTHON :
+# name="shivam"
+# print(name[0:3])
+# print(name[-4: -1])
+# print(name[1:4])
 
 # a='shivam' #single quoted string 
 # b="shivam" #double quoted string 
@@ -23,10 +27,6 @@
 # sl[1:3]returns "hi"---characters from 1to3
 
 # NEGATIVE SLICING:
-# name="shivam"
-# print(name[0:3])
-# print(name[-4: -1])
-# print(name[1:4])
 
 # name="shivam"
 # print(name[:4]) #is same as print (name[0:4]) 
@@ -48,4 +48,28 @@
 
 # name="vidhi"
 # print(len(name))
+
+# nm="harry"
+# print(nm[-4:-2])
+# print(nm[2:4])
+
+
+
+# SRRING ARE IMUTABLE:
+
+# a="shivam is a good boy "
+# print(len(a))
+
+# a="shivam is good"
+# print(a.upper())
+
+# a="SHIVANG IS BAD BOY"
+# print(a.lower())
+
+# a="shivang is bad!!!"
+# print(a.rstrip("!"))
+
+# a="shivam is bad boy"
+# print(a.replace("bad","good"))
+
 

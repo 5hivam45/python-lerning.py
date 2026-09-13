@@ -1,7 +1,7 @@
 # PROBLEM 1:
 
-# name = input("enter your name")
-# print(f"good afternoon,{name}") # f keyword and {} use print string 
+name = input("enter your name")
+print(f"good afternoon,{name}") # f keyword and {} use print string 
 
 
 # PROBLEM 2:
@@ -16,3 +16,11 @@ print(letter.replace("<|Name|>", "shivam").replace("<|Date|","24 september 2026"
 
 name = "shivam is good  boy "
 print(name.find("  "))
+
+# problem 4:
+
+name = "shivam is a good  boy"
+print(name,replace("  "," ")) #string is imutable wich means that you cannot change them by running function on them
+
+
+

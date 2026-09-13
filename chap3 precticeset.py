@@ -11,3 +11,8 @@ You are selected!
 <|Date|> '''
 
 print(letter.replace("<|Name|>", "shivam").replace("<|Date|","24 september 2026"))
+
+# problem 3 :
+
+name = "shivam is good  boy "
+print(name.find("  "))

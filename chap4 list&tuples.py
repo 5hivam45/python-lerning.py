@@ -25,5 +25,10 @@ print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'i
 numbers = [10, 20, 30]
 
 numbers.append(40)
-print(numbers)
-# [10, 20, 30, 40]
+print(numbers) #OUTPUT= [10, 20, 30, 40]
+
+
+# remove.
+numbers = [10,20,30]
+numbers.remove(20)
+print(numbers) # OUTPUT=[10, 30, 40]

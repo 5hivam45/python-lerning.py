@@ -32,3 +32,8 @@ print(numbers) #OUTPUT= [10, 20, 30, 40]
 numbers = [10,20,30]
 numbers.remove(20)
 print(numbers) # OUTPUT=[10, 30, 40]
+
+# reverse.
+numbers = [10,20,30,40,50]
+numbers.reverse()
+print(numbers)

@@ -16,6 +16,14 @@
 
 
 # LIST METHODS:
+# append.
 name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
 name.append("ishan")
 print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'ishan']
+
+# 2
+numbers = [10, 20, 30]
+
+numbers.append(40)
+print(numbers)
+# [10, 20, 30, 40]

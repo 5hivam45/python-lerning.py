@@ -11,8 +11,11 @@
 # print(name) #OUTPUT=['apple', 'orange', 8, 345.06, False, 'Aakash', 'shivam']
 
 # 3:
-name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
-print(name[1:3]) #OUTPU=['ORANGE',5]
+# name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
+# print(name[1:3]) #OUTPU=['ORANGE',5]
 
 
 # LIST METHODS:
+name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
+name.append("ishan")
+print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'ishan']

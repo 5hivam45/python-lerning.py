@@ -31,23 +31,37 @@
 # | `copy()`    | List ki copy banata hai              | `b = a.copy()`    |
 
 # append.
-name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
-name.append("ishan")
-print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'ishan']
+# name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
+# name.append("ishan")
+# print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'ishan']
 
-# 2
-numbers = [10, 20, 30]
+# # 2
+# numbers = [10, 20, 30]
 
-numbers.append(40)
-print(numbers) #OUTPUT= [10, 20, 30, 40]
+# numbers.append(40)
+# print(numbers) #OUTPUT= [10, 20, 30, 40]
 
+# insert
+# number = [1,2,3,4,5]
+# number.insert(2,6)
+# print(number) #OUTPUT=[1, 2, 6, 3, 4, 5]
+
+# extend
+# number = [1,2,3,4,5]
+# number.extend("6")
+# print(number)
 
 # remove.
-numbers = [10,20,30]
-numbers.remove(20)
-print(numbers) # OUTPUT=[10, 30, 40]
+# numbers = [10,20,30]
+# numbers.remove(20)
+# print(numbers) # OUTPUT=[10, 30, 40]
 
-# reverse.
-numbers = [10,20,30,40,50]
-numbers.reverse()
-print(numbers)
+# number = [1,2,3,4,5]
+# number.pop(1)
+# print(number) #OUTPUT= [1, 3, 4, 5]
+
+
+# # reverse.
+# numbers = [10,20,30,40,50]
+# numbers.reverse()
+# print(numbers)

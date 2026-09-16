@@ -60,6 +60,9 @@
 # number.pop(1)
 # print(number) #OUTPUT= [1, 3, 4, 5]
 
+# number = [1,2,3,4,5]
+# number.clear()
+# print(number) #OUTPUT=[]
 
 # # reverse.
 # numbers = [10,20,30,40,50]

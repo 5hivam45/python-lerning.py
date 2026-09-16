@@ -16,6 +16,20 @@
 
 
 # LIST METHODS:
+# | Method      | Kaam                                 | Example           |
+# | ----------- | ------------------------------------ | ----------------- |
+# | `append()`  | End me item add karta hai            | `a.append(5)`     |
+# | `insert()`  | Specific position par item add       | `a.insert(1, 5)`  |
+# | `extend()`  | Multiple items add                   | `a.extend([4,5])` |
+# | `remove()`  | Item ko remove karta hai             | `a.remove(5)`     |
+# | `pop()`     | Item ko position se remove karta hai | `a.pop(1)`        |
+# | `clear()`   | Puri list empty karta hai            | `a.clear()`       |
+# | `sort()`    | List ko sort karta hai               | `a.sort()`        |
+# | `reverse()` | List ko ulta karta hai               | `a.reverse()`     |
+# | `index()`   | Item ki position batata hai          | `a.index(5)`      |
+# | `count()`   | Item kitni baar hai                  | `a.count(5)`      |
+# | `copy()`    | List ki copy banata hai              | `b = a.copy()`    |
+
 # append.
 name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
 name.append("ishan")

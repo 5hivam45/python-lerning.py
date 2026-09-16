@@ -30,7 +30,7 @@
 # | `count()`   | Item kitni baar hai                  | `a.count(5)`      |
 # | `copy()`    | List ki copy banata hai              | `b = a.copy()`    |
 
-# append.
+# append:
 # name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
 # name.append("ishan")
 # print(name) #OUTPUT=['apple', 'orange', 5, 345.06, False, 'Aakash', 'shivam', 'ishan']
@@ -41,35 +41,42 @@
 # numbers.append(40)
 # print(numbers) #OUTPUT= [10, 20, 30, 40]
 
-# insert
+# insert:
 # number = [1,2,3,4,5]
 # number.insert(2,6)
 # print(number) #OUTPUT=[1, 2, 6, 3, 4, 5]
 
-# extend
+# extend:
 # number = [1,2,3,4,5]
 # number.extend("6")
 # print(number)
 
-# remove.
+# remove:
 # numbers = [10,20,30]
 # numbers.remove(20)
 # print(numbers) # OUTPUT=[10, 30, 40]
 
+# pop:
 # number = [1,2,3,4,5]
 # number.pop(1)
 # print(number) #OUTPUT= [1, 3, 4, 5]
 
+# clear:
 # number = [1,2,3,4,5]
 # number.clear()
 # print(number) #OUTPUT=[]
 
+# sort:
 # number = [1.2,4.5,3.3,2.2]
 # number.sort()
 # print(number) #OUTPUT=[1.2, 2.2, 3.3, 4.5]
 
-
-# # reverse.
+# reverse:
 # numbers = [10,20,30,40,50]
 # numbers.reverse()
 # print(numbers)
+
+# index:
+number = [1,2,3,4,5]
+print(number.index(3)) #OUTPUT=2
+

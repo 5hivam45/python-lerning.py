@@ -64,6 +64,11 @@
 # number.clear()
 # print(number) #OUTPUT=[]
 
+number = [1.2,4.5,3.3,2.2]
+number.sort()
+print(number) #OUTPUT=[1.2, 2.2, 3.3, 4.5]
+
+
 # # reverse.
 # numbers = [10,20,30,40,50]
 # numbers.reverse()

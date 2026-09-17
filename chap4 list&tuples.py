@@ -77,6 +77,9 @@
 # print(numbers)
 
 # index:
-number = [1,2,3,4,5]
-print(number.index(3)) #OUTPUT=2
+# number = [1,2,3,4,5]
+# print(number.index(3)) #OUTPUT=2
 
+# count:
+number = [1,2,1,3,1]
+print(number.count(1)) #OUTPUT=3

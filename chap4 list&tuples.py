@@ -48,8 +48,8 @@
 
 # extend:
 # number = [1,2,3,4,5]
-# number.extend("6")
-# print(number)
+# number.extend([6])
+# print(number) #OUTPUT=[1, 2, 3, 4, 5, 6]
 
 # remove:
 # numbers = [10,20,30]
@@ -81,5 +81,5 @@
 # print(number.index(3)) #OUTPUT=2
 
 # count:
-number = [1,2,1,3,1]
-print(number.count(1)) #OUTPUT=3
+# number = [1,2,1,3,1]
+# print(number.count(1)) #OUTPUT=3

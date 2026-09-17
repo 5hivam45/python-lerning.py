@@ -48,13 +48,13 @@
 
 # extend:
 # number = [1,2,3,4,5]
-# number.extend([6])
-# print(number) #OUTPUT=[1, 2, 3, 4, 5, 6]
+# number.extend([6,7,8])
+# print(number) #OUTPUT=[1, 2, 3, 4, 5, 6,7,8,]
 
 # remove:
 # numbers = [10,20,30]
 # numbers.remove(20)
-# print(numbers) # OUTPUT=[10, 30, 40]
+# print(numbers) # OUTPUT=[10, 30]
 
 # pop:
 # number = [1,2,3,4,5]
@@ -83,3 +83,10 @@
 # count:
 # number = [1,2,1,3,1]
 # print(number.count(1)) #OUTPUT=3
+
+# copy:
+# number = [1,2,3,4,5]
+# new_number = number.copy()
+# print(number)
+# print(new_number) #OUTPUT=[1, 2, 3, 4, 5]
+#                   #       [1, 2, 3, 4, 5]

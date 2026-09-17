@@ -1,4 +1,4 @@
-# LIST:python lit are containers to store a set of value of any data type 
+# LIST:python list are containers to store a set of value of any data type 
 
 # 1:
 # name = ["apple","orange",5,345.06,False,"Aakash","shivam"]
@@ -89,4 +89,8 @@
 # new_number = number.copy()
 # print(number)
 # print(new_number) #OUTPUT=[1, 2, 3, 4, 5]
-#                   #       [1, 2, 3, 4, 5]
+#                           [1, 2, 3, 4, 5]
+
+# TUPLE:pyton tuple are container to store a ser of value of any data type 
+# name  =("apple","orange",5,345.06,False,"Aakash","shivam")
+# print(name[2]) #OUTPUT=5)

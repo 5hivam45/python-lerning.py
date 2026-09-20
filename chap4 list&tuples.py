@@ -153,3 +153,17 @@
 # fruits = ("apple","orange","mango")
 # print("banana" not in fruits) #OUTPUT=True
 # print("apple" not in fruits) #OUTPUT=False
+
+# TUPLE INDEXING:
+
+# number = (10,20,30,40,50)
+# print(number[0]) #OUTPUT=10
+# print(number[2]) #OUTPUT=30
+# print(number[-1]) #OUTPUT=50
+
+# TUPLE INDEXING:
+
+# number = (10,20,30,40,50)
+# print(number[0]) #OUTPUT=10
+# print(number[2]) #OUTPUT=30
+# print(number[-1]) #OUTPUT=50

@@ -161,9 +161,10 @@
 # print(number[2]) #OUTPUT=30
 # print(number[-1]) #OUTPUT=50
 
-# TUPLE INDEXING:
+# TUPLE SLICING:
 
 # number = (10,20,30,40,50)
-# print(number[0]) #OUTPUT=10
-# print(number[2]) #OUTPUT=30
-# print(number[-1]) #OUTPUT=50
+# print(number[1:4]) #OUTPUT=(20, 30, 40)
+# print(number[:3]) #OUTPUT=(10, 20, 30)
+# print(number[2:]) #OUTPUT=(30, 40, 50)
+# print(number[::-1]) #OUTPUT=(50, 40, 30, 20, 10)

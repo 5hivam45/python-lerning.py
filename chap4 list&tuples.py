@@ -113,3 +113,43 @@
 # 3.tuple allows duplicate value 
 # 4.tuple can store different data types
 # 5.tuple uses () brackets
+
+# TUPLE METHODS:
+# |------|-------------------|------|
+# | count() | Item kitni baar hai | a.count(5) |
+# | index() | Item ki position batata hai | a.index(5) |
+
+# count():
+# number = (1,2,1,3,1)
+# print(number.count(1)) #OUTPUT=3
+# count() batata hai ki koi item tuple me kitni baar present hai
+
+# 2:
+# fruits = ("apple","banana","apple","mango","apple")
+# print(fruits.count("apple")) #OUTPUT=3
+
+# index():
+# number = (1,2,3,4,5)
+# print(number.index(3)) #OUTPUT=2
+# index() item ki first position/index batata hai
+
+# 2:
+# number = (10,20,30,20,40)
+# print(number.index(20)) #OUTPUT=1
+# agar item multiple times present hai to index() first occurrence ka index deta hai
+
+# len():
+# number = (10,20,30,40,50)
+# print(len(number)) #OUTPUT=5
+# len() tuple ke andar total items ki number batata hai
+
+# IN:
+# fruits = ("apple","orange","mango")
+# print("apple" in fruits) #OUTPUT=True
+# print("banana" in fruits) #OUTPUT=False
+# "in" check karta hai ki item tuple ke andar present hai ya nahi
+
+# NOT IN:
+# fruits = ("apple","orange","mango")
+# print("banana" not in fruits) #OUTPUT=True
+# print("apple" not in fruits) #OUTPUT=False

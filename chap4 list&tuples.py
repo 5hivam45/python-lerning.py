@@ -91,6 +91,25 @@
 # print(new_number) #OUTPUT=[1, 2, 3, 4, 5]
 #                           [1, 2, 3, 4, 5]
 
-# TUPLE:pyton tuple are container to store a ser of value of any data type 
+# TUPLE:pyton tuple are container to store a set of value of any data type 
+
+# 1:
 # name  =("apple","orange",5,345.06,False,"Aakash","shivam")
-# print(name[2]) #OUTPUT=5)
+# print(name[2]) #OUTPUT=5
+
+# 2:
+# name = ("apple","orange",5,345.06,false,"Aakash","shivam")
+# name[2]=8
+# print(name[2]) #OUTPUT=ERROR
+# unlike lists tuple are immutable (we cannot change the value of tuple)
+
+# 3:
+# name = ("apple","orange",5,345.06,False,"Aakash","shivam")
+# print(name[1:3]) #OUTPUT=('orange', 5)
+
+# TUPLE PROPERTIES:
+# 1.tuple is ordered
+# 2.tuple is immutable
+# 3.tuple allows duplicate value 
+# 4.tuple can store different data types
+# 5.tuple uses () brackets

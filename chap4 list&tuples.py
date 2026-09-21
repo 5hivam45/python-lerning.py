@@ -190,3 +190,12 @@
 # a = (1,2,3)
 # print(a * 3) #OUTPUT=(1, 2, 3, 1, 2, 3, 1, 2, 3)
 # * operator se tuple ko multiple times repeat kar sakte hain
+
+# TUPLE UNPACKING:
+
+# student = ("Shivam",18,"CSE")
+# name,age,branch = student
+# print(name) #OUTPUT=Shivam
+# print(age) #OUTPUT=18
+# print(branch) #OUTPUT=CSE
+# tuple ki values ko different variables me store karna tuple unpacking kehlata hai

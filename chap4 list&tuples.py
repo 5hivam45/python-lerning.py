@@ -199,3 +199,18 @@
 # print(age) #OUTPUT=18
 # print(branch) #OUTPUT=CSE
 # tuple ki values ko different variables me store karna tuple unpacking kehlata hai
+
+# TUPLE TO LIST:
+
+# number = (1,2,3,4,5)
+# new_number = list(number)
+# print(new_number) #OUTPUT=[1, 2, 3, 4, 5]
+# tuple ko list me convert karne ke liye list() use karte hain
+
+# LIST TO TUPLE:
+
+# number = [1,2,3,4,5]
+# new_number = tuple(number)
+# print(new_number) #OUTPUT=(1, 2, 3, 4, 5)
+# list ko tuple me convert karne ke liye tuple() use karte hain
+

@@ -184,3 +184,9 @@
 # c = a + b
 # print(c) #OUTPUT=(1, 2, 3, 4, 5, 6)
 # + operator se do tuples ko join kar sakte hain
+
+# TUPLE REPETITION:
+
+# a = (1,2,3)
+# print(a * 3) #OUTPUT=(1, 2, 3, 1, 2, 3, 1, 2, 3)
+# * operator se tuple ko multiple times repeat kar sakte hain

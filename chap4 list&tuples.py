@@ -220,3 +220,37 @@
 # del number
 # print(number) #ERROR
 # del se poora tuple delete kar sakte hain
+
+# NESTED TUPLE:
+
+# number = (10,20,(30,40),50)
+# print(number[2]) #OUTPUT=(30, 40)
+# print(number[2][0]) #OUTPUT=30
+# tuple ke andar tuple ko nested tuple kehte hain
+
+# TUPLE WITH DIFFERENT DATA TYPES:
+
+# data = ("Shivam",18,85.5,True)
+# print(data) #OUTPUT=('Shivam', 18, 85.5, True)
+# tuple me different data types ki values store kar sakte hain
+
+# MPORTANT:
+
+# LIST = mutable
+# TUPLE = immutable
+# LIST = []
+# TUPLE = ()
+# LIST me values change kar sakte hain
+# TUPLE me values change nahi kar sakte hain
+
+# LIST:
+
+# number = [1,2,3]
+# number[0] = 10
+# print(number) #OUTPUT=[10, 2, 3]
+
+# TUPLE:
+
+# number = (1,2,3)
+# number[0] = 10
+# print(number) #ERROR

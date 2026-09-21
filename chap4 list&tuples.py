@@ -214,3 +214,9 @@
 # print(new_number) #OUTPUT=(1, 2, 3, 4, 5)
 # list ko tuple me convert karne ke liye tuple() use karte hain
 
+# DELETE TUPLE:
+
+# number = (1,2,3,4,5)
+# del number
+# print(number) #ERROR
+# del se poora tuple delete kar sakte hain

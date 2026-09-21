@@ -168,3 +168,11 @@
 # print(number[:3]) #OUTPUT=(10, 20, 30)
 # print(number[2:]) #OUTPUT=(30, 40, 50)
 # print(number[::-1]) #OUTPUT=(50, 40, 30, 20, 10)
+
+# SINGLE ITEM TUPLE:
+
+# x = (10)
+# print(type(x)) #OUTPUT=<class 'int'>
+# x = (10,)
+# print(type(x)) #OUTPUT=<class 'tuple'>
+# single item tuple banane ke liye comma (,) zaroori hai

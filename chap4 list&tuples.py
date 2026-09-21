@@ -176,3 +176,11 @@
 # x = (10,)
 # print(type(x)) #OUTPUT=<class 'tuple'>
 # single item tuple banane ke liye comma (,) zaroori hai
+
+# TUPLE CONCATENATION:
+
+# a = (1,2,3)
+# b = (4,5,6)
+# c = a + b
+# print(c) #OUTPUT=(1, 2, 3, 4, 5, 6)
+# + operator se do tuples ko join kar sakte hain

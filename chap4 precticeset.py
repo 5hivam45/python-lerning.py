@@ -25,20 +25,20 @@
 
 # PROBLEM = 2
 
-marks = []
+# marks = []
 
-f1 = int(input("Enter marks name :"))
-marks.append(f1)                    
-f2 = int(input("Enter marks name :"))
-marks.append(f2)
-f3 = int(input("Enter marks name :"))
-marks.append(f3)
-f4 = int(input("Enter marks name :"))
-marks.append(f4)
-f5 = int(input("Enter marks name :"))
-marks.append(f5)
-marks.sort()
-print(marks)  
+# f1 = int(input("Enter marks name :"))
+# marks.append(f1)                    
+# f2 = int(input("Enter marks name :"))
+# marks.append(f2)
+# f3 = int(input("Enter marks name :"))
+# marks.append(f3)
+# f4 = int(input("Enter marks name :"))
+# marks.append(f4)
+# f5 = int(input("Enter marks name :"))
+# marks.append(f5)
+# marks.sort()
+# print(marks)  
 
 # OUTPUT WLL BE :
 # Enter marks name :65
@@ -47,3 +47,9 @@ print(marks)
 # Enter marks name :98
 # Enter marks name :50
 # [5, 12, 50, 65, 98]
+
+
+# PROBLEM = 3
+
+a = (34,5,"shivam")
+a[2] = "shivang" #output will be = 0

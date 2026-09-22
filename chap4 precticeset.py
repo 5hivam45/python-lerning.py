@@ -51,5 +51,11 @@
 
 # PROBLEM = 3
 
-a = (34,5,"shivam")
-a[2] = "shivang" #output will be = 0
+# a = (34,5,"shivam")
+# a[2] = "shivang" #output will be = 0
+
+# PROBLEM = 4
+
+l = [2,3,4,5,6]
+
+print(sum(l)) #output will be = 20

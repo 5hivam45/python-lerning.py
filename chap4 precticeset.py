@@ -27,24 +27,23 @@
 
 marks = []
 
-f1 = input("Enter marks name :")
+f1 = int(input("Enter marks name :"))
 marks.append(f1)                    
-f2 = input("Enter marks name :")
+f2 = int(input("Enter marks name :"))
 marks.append(f2)
-f3 = input("Enter marks name :")
+f3 = int(input("Enter marks name :"))
 marks.append(f3)
-f4 = input("Enter marks name :")
+f4 = int(input("Enter marks name :"))
 marks.append(f4)
-f5 = input("Enter marks name :")
+f5 = int(input("Enter marks name :"))
 marks.append(f5)
-
+marks.sort()
 print(marks)  
 
 # OUTPUT WLL BE :
-# Enter marks name :25
-# Enter marks name :45
-# Enter marks name :63
-# Enter marks name :78
-# Enter marks name :96
-# ['25', '45', '63', '78', '96']
-
+# Enter marks name :65
+# Enter marks name :12
+# Enter marks name :5
+# Enter marks name :98
+# Enter marks name :50
+# [5, 12, 50, 65, 98]

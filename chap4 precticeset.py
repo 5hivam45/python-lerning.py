@@ -56,6 +56,11 @@
 
 # PROBLEM = 4
 
-l = [2,3,4,5,6]
+# l = [2,3,4,5,6]
+# print(sum(l)) #output will be = 20
 
-print(sum(l)) #output will be = 20
+
+# PROBLEM = 5
+
+# a = (1,0,2,0,3,0)
+# print(a.count(0)) #output will be = 3

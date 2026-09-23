@@ -79,4 +79,4 @@ print(student)
 # setdefault()	Key nahi hai to add karta hai.	student.setdefault(...)
 # fromkeys()	Given keys se new dictionary banata hai.	dict.fromkeys(...)
 # len()	Total key-value pairs count karta hai.	len(student)
-# del	Specific key-value pair delete karta hai.	del student["age"]
+# del	Specific key-value pair delete karta hai.	del student["age"] 

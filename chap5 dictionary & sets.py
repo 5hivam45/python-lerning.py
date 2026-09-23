@@ -30,7 +30,7 @@
 # }
 # print(marks["shivam"])   #output will be = 100
 
-# PROPERTIES OF PYTHON DICTIONARIES
+# PROPERTIES OF PYTHON DICTIONARY:
 # 1. it is unordered
 # 2. it is mutable
 # 3. it is indexed

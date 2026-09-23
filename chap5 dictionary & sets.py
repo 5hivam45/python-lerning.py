@@ -64,14 +64,19 @@ print(student)
 #     "key2":"value2"
 # }
 
-# DICTIONARY METHODS:
-# | Method    | Kaam                              | Example              |
-# |-----------|-----------------------------------|-----------------------|
-# | keys()    | Saari keys deta hai               | student.keys()        |
-# | values()  | Saari values deta hai             | student.values()      |
-# | items()   | Key aur value dono deta hai       | student.items()       |
-# | get()     | Key ki value deta hai             | student.get("name")   |
-# | update()  | Item add/change karta hai          | student.update(...)   |
-# | pop()     | Specific item remove karta hai    | student.pop("age")    |
-# | clear()   | Dictionary empty karta hai         | student.clear()       |
-# | copy()    | Dictionary ki copy banata hai     | student.copy(
+# DICTIONARY METHODS & OPERATIONS:
+    
+# Method / Operation	Kaam /	Example 
+# keys()	Saari keys deta hai.	student.keys()
+# values()	Saari values deta hai.	student.values()
+# items()	Key aur value dono deta hai.	student.items()
+# get()	Key ki value deta hai.	student.get("name")
+# update()	Item add/change karta hai.	student.update(...)
+# pop()	Specific key ko remove karta hai.	student.pop("age")
+# popitem()	Last key-value pair remove karta hai.	student.popitem()
+# clear()	Dictionary empty karta hai.	student.clear()
+# copy()	Dictionary ki copy banata hai.	student.copy()
+# setdefault()	Key nahi hai to add karta hai.	student.setdefault(...)
+# fromkeys()	Given keys se new dictionary banata hai.	dict.fromkeys(...)
+# len()	Total key-value pairs count karta hai.	len(student)
+# del	Specific key-value pair delete karta hai.	del student["age"]

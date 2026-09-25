@@ -89,3 +89,12 @@ student = {"name":"Shivam","age":18,"branch":"CSE"}
 
 print(student.keys())
 # OUTPUT=dict_keys(['name', 'age', 'branch'])
+
+# values():
+
+# values() dictionary ki saari values deta hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+
+print(student.values())
+# OUTPUT=dict_values(['Shivam', 18, 'CSE'])

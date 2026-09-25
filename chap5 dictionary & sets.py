@@ -134,3 +134,12 @@ print(student)
 student.update({"branch":"CSE"})
 print(student)
 # OUTPUT={'name': 'Shivam', 'age': 19, 'branch
+
+
+# pop():
+# pop() specified key aur uski value ko dictionary se remove karta hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+student.pop("age")
+print(student)
+# OUTPUT={'name': 'Shivam', 'branch': 'CSE'}

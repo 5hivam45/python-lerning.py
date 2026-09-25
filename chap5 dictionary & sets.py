@@ -82,19 +82,26 @@ print(student)
 # del	Specific key-value pair delete karta hai.	del student["age"] 
 
 # keys():
-
 # keys() dictionary ki saari keys deta hai.
 
 student = {"name":"Shivam","age":18,"branch":"CSE"}
-
 print(student.keys())
 # OUTPUT=dict_keys(['name', 'age', 'branch'])
 
-# values():
 
+# values():
 # values() dictionary ki saari values deta hai.
 
 student = {"name":"Shivam","age":18,"branch":"CSE"}
-
 print(student.values())
 # OUTPUT=dict_values(['Shivam', 18, 'CSE'])
+
+
+# items():
+# items() dictionary ki key aur value dono deta hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+print(student.items())
+# OUTPUT=dict_items([('name', 'Shivam'), ('age', 18), ('branch', 'CSE')])
+
+

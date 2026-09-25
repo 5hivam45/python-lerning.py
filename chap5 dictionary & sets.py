@@ -120,3 +120,17 @@ print(student.get("marks"))
 # OUTPUT=None
 
 
+# update():
+# update() dictionary me new item add ya existing value change karne ke liye use hota hai.
+
+student = {"name":"Shivam","age":18}
+student.update({"age":19})
+print(student)
+# OUTPUT={'name': 'Shivam', 'age': 19}
+
+
+# New item bhi add kar sakte hain:
+
+student.update({"branch":"CSE"})
+print(student)
+# OUTPUT={'name': 'Shivam', 'age': 19, 'branch

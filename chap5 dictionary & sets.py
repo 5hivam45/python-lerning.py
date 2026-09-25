@@ -143,3 +143,15 @@ student = {"name":"Shivam","age":18,"branch":"CSE"}
 student.pop("age")
 print(student)
 # OUTPUT={'name': 'Shivam', 'branch': 'CSE'}
+
+
+# clear():
+# clear() dictionary ke saare items remove kar deta hai.
+
+student = {"name":"Shivam","age":18}
+student.clear()
+print(student)
+# OUTPUT={}
+
+
+

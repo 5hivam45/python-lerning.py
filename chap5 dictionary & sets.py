@@ -80,3 +80,12 @@ print(student)
 # fromkeys()	Given keys se new dictionary banata hai.	dict.fromkeys(...)
 # len()	Total key-value pairs count karta hai.	len(student)
 # del	Specific key-value pair delete karta hai.	del student["age"] 
+
+# keys():
+
+# keys() dictionary ki saari keys deta hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+
+print(student.keys())
+# OUTPUT=dict_keys(['name', 'age', 'branch'])

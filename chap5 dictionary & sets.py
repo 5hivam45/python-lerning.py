@@ -105,3 +105,18 @@ print(student.items())
 # OUTPUT=dict_items([('name', 'Shivam'), ('age', 18), ('branch', 'CSE')])
 
 
+# get():
+# get() kisi key ki value ko access karne ke liye use hota hai.
+
+student = {"name":"Shivam","age":18}
+print(student.get("name"))
+# OUTPUT=Shivam
+
+
+# Agar key dictionary me nahi hai to get() normally None return karta hai.
+
+student = {"name":"Shivam","age":18}
+print(student.get("marks"))
+# OUTPUT=None
+
+

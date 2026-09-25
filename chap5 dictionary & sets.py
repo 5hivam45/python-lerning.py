@@ -154,4 +154,11 @@ print(student)
 # OUTPUT={}
 
 
+# copy():
+# copy() dictionary ki ek copy banata hai.
+
+student = {"name":"Shivam","age":18}
+new_student = student.copy()
+print(new_student)
+# OUTPUT={'name': 'Shivam', 'age': 18}
 

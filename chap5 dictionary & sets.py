@@ -269,3 +269,15 @@ print(student)
 
 # OUTPUT={'name': 'Aakash', 'age': 18}
 # Agar same key multiple times di gayi ho to last value store hoti hai.
+
+
+# DUPLICATE VALUES:
+#  Dictionary me duplicate values allowed hoti hain.
+
+student = {
+    "name1":"Shivam",
+    "name2":"Shivam"
+}
+print(student)
+
+# OUTPUT={'name1': 'Shivam', 'name2': 'Shivam'}

@@ -298,3 +298,17 @@ print(number["a"])
 # DICTIONARY = key ke through value access
 
 
+# IMPORTANT:
+# LIST       = Mutable
+# TUPLE      = Immutable
+# DICTIONARY = Mutable
+
+# LIST       = []
+# TUPLE      = ()
+# DICTIONARY = {}
+
+# LIST       = Index se access
+# TUPLE      = Index se access
+# DICTIONARY = Key se access
+
+

@@ -255,3 +255,16 @@ data = {
 print(data)
 
 # OUTPUT={'name': 'Shivam', 'age': 18,'marks': 85.5, 'passed': True}
+
+
+# DUPLICATE KEYS:
+# Dictionary me same key ko multiple times nahi rakh sakte.
+
+student = {
+    "name":"Shivam",
+    "age":18,
+    "name":"Aakash"
+}
+print(student)
+
+# OUTPUT={'name': 'Aakash', 'age': 18}

@@ -268,3 +268,4 @@ student = {
 print(student)
 
 # OUTPUT={'name': 'Aakash', 'age': 18}
+# Agar same key multiple times di gayi ho to last value store hoti hai.

@@ -162,3 +162,10 @@ new_student = student.copy()
 print(new_student)
 # OUTPUT={'name': 'Shivam', 'age': 18}
 
+
+# len():
+# len() dictionary me total key-value pairs ki number batata hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+print(len(student))
+# OUTPUT=3

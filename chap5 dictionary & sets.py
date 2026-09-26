@@ -241,3 +241,17 @@ student = {
 print(student["marks"]["python"])
 
 # OUTPUT=80
+
+
+# DICTIONARY WITH DIFFERENT DATA TYPES:
+# Dictionary me different data types ki values store kar sakte hain.
+
+data = {
+    "name":"Shivam",
+    "age":18,
+    "marks":85.5,
+    "passed":True
+}
+print(data)
+
+# OUTPUT={'name': 'Shivam', 'age': 18,'marks': 85.5, 'passed': True}

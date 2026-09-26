@@ -312,3 +312,21 @@ print(number["a"])
 # DICTIONARY = Key se access
 
 
+# IMPORTANT EXAMPLE:
+student = {
+    "name":"Shivam",
+    "age":18,
+    "branch":"CSE"
+}
+
+student["age"] = 19
+student["city"] = "Chapra"
+
+print(student)
+
+# OUTPUT={'name': 'Shivam', 'age': 19,'branch': 'CSE', 'city': 'Chapra'}
+
+# Yahan humne:
+# age ki value change ki
+# city ka new key-value pair add kiya
+# Isliye dictionary ko mutable kehte hain.

@@ -191,3 +191,15 @@ print("marks" not in student)
 
 print("name" not in student)
 # OUTPUT=False
+
+
+# DICTIONARY LOOP:
+# Dictionary par for loop laga sakte hain.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+for key in student:
+    print(key)
+# OUTPUT:
+# name
+# age
+# branch

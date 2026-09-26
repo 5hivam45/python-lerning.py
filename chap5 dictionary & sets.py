@@ -180,3 +180,14 @@ print("name" in student)
 
 print("marks" in student)
 # OUTPUT=False
+
+
+# NOT IN:
+# not in check karta hai ki key dictionary ke andar present nahi hai.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+print("marks" not in student)
+# OUTPUT=True
+
+print("name" not in student)
+# OUTPUT=False

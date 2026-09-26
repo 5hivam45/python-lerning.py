@@ -226,3 +226,18 @@ for key,value in student.items():
 # name Shivam
 # age 18
 # branch CSE
+
+
+# NESTED DICTIONARY:
+# Dictionary ke andar dictionary ko nested dictionary kehte hain.
+
+student = {
+    "name":"Shivam",
+    "marks":{
+        "python":80,
+        "maths":70
+    }
+}
+print(student["marks"]["python"])
+
+# OUTPUT=80

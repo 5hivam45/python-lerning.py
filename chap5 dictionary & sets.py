@@ -169,3 +169,14 @@ print(new_student)
 student = {"name":"Shivam","age":18,"branch":"CSE"}
 print(len(student))
 # OUTPUT=3
+
+
+# IN:
+# in check karta hai ki koi key dictionary ke andar present hai ya nahi.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+print("name" in student)
+# OUTPUT=True
+
+print("marks" in student)
+# OUTPUT=False

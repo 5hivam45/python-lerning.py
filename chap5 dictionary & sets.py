@@ -281,3 +281,20 @@ student = {
 print(student)
 
 # OUTPUT={'name1': 'Shivam', 'name2': 'Shivam'}
+
+
+# DICTIONARY VS LIST:
+# LIST:
+number = [10,20,30]
+print(number[0])
+# OUTPUT=10
+
+# DICTIONARY:
+number = {"a":10,"b":20,"c":30}
+print(number["a"])
+# OUTPUT=10
+
+# LIST       = index ke through value access
+# DICTIONARY = key ke through value access
+
+

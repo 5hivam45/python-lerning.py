@@ -203,3 +203,14 @@ for key in student:
 # name
 # age
 # branch
+
+
+# PRINT VALUES USING LOOP:
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+for value in student.values():
+    print(value)
+# OUTPUT:
+# Shivam
+# 18
+# CSE

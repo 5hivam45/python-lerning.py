@@ -214,3 +214,15 @@ for value in student.values():
 # Shivam
 # 18
 # CSE
+
+
+# PRINT KEY AND VALUE USING LOOP:
+# items() ka use karke key aur value dono ko ek saath access kar sakte hain.
+
+student = {"name":"Shivam","age":18,"branch":"CSE"}
+for key,value in student.items():
+    print(key,value)
+# OUTPUT:
+# name Shivam
+# age 18
+# branch CSE

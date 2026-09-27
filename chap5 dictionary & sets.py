@@ -399,3 +399,15 @@ print(numbers)
 # OUTPUT={10,20,30,40}
 
 
+# 4: SET WITH DIFFERENT DATA TYPES:
+# Set me different data types ki values store kar sakte hain.
+
+data = {"Shivam",18,85.5,True}
+print(data)
+# OUTPUT={'Shivam', 18, 85.5, True}
+
+# Yahan:
+# "Shivam" = String
+# 18 = Integer
+# 85.5 = Float
+# True = Boolean

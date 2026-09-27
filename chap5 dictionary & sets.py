@@ -388,3 +388,14 @@ print(numbers)
 numbers = {10,20,30,40}
 print(numbers[0])
 # ERROR
+
+
+# 3: SET IS MUTABLE:
+# Set mutable hota hai, iska matlab Set me items add aur remove kar sakte hain.
+
+numbers = {10,20,30}
+numbers.add(40)
+print(numbers)
+# OUTPUT={10,20,30,40}
+
+

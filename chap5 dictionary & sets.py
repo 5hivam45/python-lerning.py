@@ -365,3 +365,11 @@ print(numbers)
 # Set ka order fixed nahi hota kyunki Set unordered hota hai.
 
 
+# 1: SET DOES NOT ALLOW DUPLICATE VALUES:
+# Set me duplicate values allowed nahi hoti.
+
+numbers = {10,20,20,30,30,30}
+print(numbers)
+# OUTPUT={10,20,30}
+
+# Duplicate values automatically remove ho jaati hain.

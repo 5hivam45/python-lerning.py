@@ -411,3 +411,13 @@ print(data)
 # 18 = Integer
 # 85.5 = Float
 # True = Boolean
+
+
+# SET PROPERTIES:
+# 1. Set unique values store karta hai
+# 2. Set unordered hota hai
+# 3. Set mutable hota hai
+# 4. Set duplicate values allow nahi karta
+# 5. Set me indexing nahi hoti
+# 6. Set different data types ki values store kar sakta hai
+# 7. Set curly brackets {} use karta hai

@@ -50,6 +50,9 @@ del student["age"]
 print(student)
 # OUTPUT={'name': 'Shivam', 'branch': 'CSE'}
 
+d = {} # Empty dictionary
+
+
 # DICTIONARY PROPERTIES:
 # 1. Dictionary key-value pairs me data store karti hai
 # 2. Dictionary mutable hoti hai

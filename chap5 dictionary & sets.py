@@ -173,12 +173,13 @@ print(student)
 # OUTPUT={'name': 'Shivam', 'age': 18, 'branch': 'CSE'}
 
 
+# fromkeys():
+# fromkeys() given keys se ek new dictionary banata hai aur sabhi keys ko same value deta hai.
 
-
-
-
-
-
+keys = ["name","age","branch"]
+student = dict.fromkeys(keys,0)
+print(student)
+# OUTPUT={'name': 0, 'age': 0, 'branch': 0}
 
 
 # len():

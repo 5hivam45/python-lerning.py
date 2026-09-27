@@ -421,3 +421,26 @@ print(data)
 # 5. Set me indexing nahi hoti
 # 6. Set different data types ki values store kar sakta hai
 # 7. Set curly brackets {} use karta hai
+
+
+# SET SYNTAX:
+numbers = {10,20,30,40}
+
+# EMPTY SET:
+# Empty Set banane ke liye set() use karte hain.
+
+numbers = set()
+print(numbers)
+# OUTPUT=set()
+
+# {} empty Set nahi banata.
+
+numbers = {}
+print(numbers)
+# OUTPUT={}
+
+# {} ek empty dictionary banata hai.
+# {} = Empty Dictionary
+# set() = Empty Set
+
+

@@ -163,6 +163,24 @@ print(new_student)
 # OUTPUT={'name': 'Shivam', 'age': 18}
 
 
+# setdefault():
+# setdefault() key present na hone par new key-value pair add karta hai. Agar key already present ho to existing value return karta hai.
+
+student = {"name":"Shivam","age":18}
+print(student.setdefault("branch","CSE"))
+# OUTPUT=CSE
+print(student)
+# OUTPUT={'name': 'Shivam', 'age': 18, 'branch': 'CSE'}
+
+
+
+
+
+
+
+
+
+
 # len():
 # len() dictionary me total key-value pairs ki number batata hai.
 

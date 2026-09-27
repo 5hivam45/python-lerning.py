@@ -352,3 +352,16 @@ print(student)
 # age ki value change ki
 # city ka new key-value pair add kiya
 # Isliye dictionary ko mutable kehte hain.
+
+
+
+# SET:
+# Set: Python set is a collection used to store unique values.
+
+numbers = {10,20,30,40}
+print(numbers)
+# OUTPUT={40, 10, 20, 30}
+
+# Set ka order fixed nahi hota kyunki Set unordered hota hai.
+
+

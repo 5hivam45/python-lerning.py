@@ -373,3 +373,18 @@ print(numbers)
 # OUTPUT={10,20,30}
 
 # Duplicate values automatically remove ho jaati hain.
+
+
+# 2: SET IS UNORDERED:
+# Set unordered hota hai, iska matlab Set me fixed order ya index nahi hota.
+
+numbers = {10,20,30,40}
+print(numbers)
+# OUTPUT={40,10,20,30}
+
+# Output ka order different ho sakta hai.
+# Set me indexing nahi hoti.
+
+numbers = {10,20,30,40}
+print(numbers[0])
+# ERROR

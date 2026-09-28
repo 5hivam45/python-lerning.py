@@ -531,3 +531,25 @@ print(numbers)
 # discard() = Item nahi mila to No Error
 
 
+# pop():
+# pop() Set se kisi ek item ko remove karta hai.
+
+numbers = {10,20,30}
+numbers.pop()
+print(numbers)
+
+# Set unordered hota hai, isliye pop() se kaunsa item remove hoga uspar depend nahi karna chahiye.
+
+# List me:
+
+numbers = [10,20,30]
+numbers.pop(0)
+
+# Set me:
+
+numbers = {10,20,30}
+numbers.pop()
+
+# Set ke pop() me index nahi dete.
+
+

@@ -571,3 +571,16 @@ print(new_numbers)
 # OUTPUT={10,20,30}
 
 
+# len():
+# len() Set me total items ki number batata hai.
+
+numbers = {10,20,30,40}
+print(len(numbers))
+# OUTPUT=4
+
+# Duplicate values count nahi hoti.
+
+numbers = {10,20,20,30,30}
+print(len(numbers))
+# OUTPUT=3
+

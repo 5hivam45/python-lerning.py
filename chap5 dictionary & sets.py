@@ -562,3 +562,12 @@ print(numbers)
 # OUTPUT=set()
 
 
+# copy():
+# copy() Set ki ek copy banata hai.
+
+numbers = {10,20,30}
+new_numbers = numbers.copy()
+print(new_numbers)
+# OUTPUT={10,20,30}
+
+

@@ -509,3 +509,25 @@ print(numbers)
 numbers = {10,20,30}
 numbers.remove(50)
 # ERROR=KeyError
+
+
+# discard():
+# discard() Set se specified item ko remove karta hai.
+
+numbers = {10,20,30}
+numbers.discard(20)
+print(numbers)
+# OUTPUT={10,30}
+
+# Agar item Set me present nahi hai to discard() error nahi deta.
+
+numbers = {10,20,30}
+numbers.discard(50)
+print(numbers)
+# OUTPUT={10,20,30}
+
+# Difference:
+# remove() = Item nahi mila to Error
+# discard() = Item nahi mila to No Error
+
+

@@ -584,3 +584,15 @@ numbers = {10,20,20,30,30}
 print(len(numbers))
 # OUTPUT=3
 
+
+# IN:
+# in check karta hai ki koi item Set ke andar present hai ya nahi.
+
+numbers = {10,20,30}
+print(20 in numbers)
+# OUTPUT=True
+
+print(50 in numbers)
+# OUTPUT=False
+
+

@@ -482,3 +482,16 @@ print(numbers)
 # OUTPUT={10,20,30}
 
 
+# update():
+# update() Set me multiple items add karta hai.
+
+numbers = {10,20,30}
+numbers.update([40,50,60])
+print(numbers)
+# OUTPUT={10,20,30,40,50,60}
+
+# Difference:
+# add() = Ek item add karta hai
+# update() = Multiple items add karta hai
+
+

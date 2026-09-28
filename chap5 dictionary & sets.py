@@ -444,3 +444,25 @@ print(numbers)
 # set() = Empty Set
 
 
+# SET METHODS & OPERATIONS:
+# | Method / Operation          | Kaam                                      | Example                              |
+# |-----------------------------|-------------------------------------------|--------------------------------------|
+# | add()                       | Ek item add karta hai                     | numbers.add(40)                      |
+# | update()                    | Multiple items add karta hai              | numbers.update([40,50])             |
+# | remove()                    | Specific item remove karta hai            | numbers.remove(20)                  |
+# | discard()                   | Item remove karta hai                     | numbers.discard(20)                 |
+# | pop()                       | Ek item remove karta hai                  | numbers.pop()                       |
+# | clear()                     | Pura Set empty karta hai                  | numbers.clear()                     |
+# | copy()                      | Set ki copy banata hai                    | numbers.copy()                      |
+# | union()                     | Dono Sets ke unique items deta hai        | A.union(B)                          |
+# | intersection()              | Common items deta hai                     | A.intersection(B)                   |
+# | difference()                 | First Set ke different items deta hai     | A.difference(B)                     |
+# | symmetric_difference()       | Non-common items deta hai                 | A.symmetric_difference(B)           |
+# | issubset()                  | Subset check karta hai                    | A.issubset(B)                       |
+# | issuperset()                | Superset check karta hai                  | A.issuperset(B)                     |
+# | isdisjoint()                | Common items nahi hain ye check karta hai | A.isdisjoint(B)                    |
+# | intersection_update()       | Common items se Set update karta hai      | A.intersection_update(B)            |
+# | difference_update()         | Common items remove karta hai             | A.difference_update(B)              |
+# | symmetric_difference_update()| Non-common items se update karta hai      | A.symmetric_difference_update(B)    |
+
+

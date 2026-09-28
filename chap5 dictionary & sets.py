@@ -466,3 +466,19 @@ print(numbers)
 # | symmetric_difference_update()| Non-common items se update karta hai      | A.symmetric_difference_update(B)    |
 
 
+# add():
+# add() Set me ek new item add karta hai.
+
+numbers = {10,20,30}
+numbers.add(40)
+print(numbers)
+# OUTPUT={10,20,30,40}
+
+# Agar same item add karenge to duplicate add nahi hoga.
+
+numbers = {10,20,30}
+numbers.add(20)
+print(numbers)
+# OUTPUT={10,20,30}
+
+

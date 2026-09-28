@@ -596,3 +596,14 @@ print(50 in numbers)
 # OUTPUT=False
 
 
+# NOT IN:
+# not in check karta hai ki item Set ke andar present nahi hai.
+
+numbers = {10,20,30}
+print(50 not in numbers)
+# OUTPUT=True
+
+print(20 not in numbers)
+# OUTPUT=False
+
+

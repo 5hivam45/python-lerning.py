@@ -495,3 +495,17 @@ print(numbers)
 # update() = Multiple items add karta hai
 
 
+# remove():
+
+# remove() Set se specified item ko remove karta hai.
+
+numbers = {10,20,30}
+numbers.remove(20)
+print(numbers)
+# OUTPUT={10,30}
+
+# Agar item Set me present nahi hai to remove() KeyError deta hai.
+
+numbers = {10,20,30}
+numbers.remove(50)
+# ERROR=KeyError

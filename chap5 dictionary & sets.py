@@ -553,3 +553,12 @@ numbers.pop()
 # Set ke pop() me index nahi dete.
 
 
+# clear():
+# clear() Set ke saare items remove kar deta hai.
+
+numbers = {10,20,30}
+numbers.clear()
+print(numbers)
+# OUTPUT=set()
+
+

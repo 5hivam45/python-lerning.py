@@ -831,3 +831,30 @@ print(numbers)
 # 20 duplicate tha
 # 40 duplicate tha
 # Set ne duplicate values ko remove kar diya
+
+
+# FINAL SET SUMMARY:
+# add() = Ek item add
+# update() = Multiple items add
+# remove() = Item remove, item na mile to Error
+# discard() = Item remove, item na mile to No Error
+# pop() = Ek item remove
+# clear() = Pura Set empty
+# copy() = Set ki copy
+
+# union() = Sabhi unique items
+# intersection() = Common items
+# difference() = First Set ke different items
+# symmetric_difference() = Non-common items
+
+# issubset() = Subset check
+# issuperset() = Superset check
+# isdisjoint() = Common item nahi hai check
+
+# intersection_update() = Common items se update
+# difference_update() = Common items remove
+# symmetric_difference_update() = Non-common items se update
+
+# len() = Total items count
+# in = Item present hai ya nahi
+# not in = Item present nahi hai

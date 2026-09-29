@@ -664,3 +664,17 @@ print(A.symmetric_difference(B))
 
 # Common 3 aur 4 result me nahi aayenge.
 # SYMMETRIC DIFFERENCE = Non-common items
+
+
+# issubset():
+# issubset() check karta hai ki ek Set ke saare items doosre Set ke andar hain ya nahi.
+
+A = {1,2}
+B = {1,2,3,4}
+print(A.issubset(B))
+# OUTPUT=True
+
+# Yahan A ke saare items B ke andar present hain.
+# A = Subset of B
+
+

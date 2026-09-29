@@ -607,3 +607,22 @@ print(20 not in numbers)
 # OUTPUT=False
 
 
+# SET OPERATIONS:
+# Set operations ke liye:
+
+# A = {1,2,3,4}
+# B = {3,4,5,6}
+
+
+# UNION:
+# union() dono Sets ke saare unique items deta hai.
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+print(A.union(B))
+# OUTPUT={1,2,3,4,5,6}
+
+# Common items sirf ek baar aate hain.
+# UNION = Sabhi unique items
+
+

@@ -44,3 +44,8 @@
 # print(len(s)) #> **Set does not consider the data type; if the values are equal, it stores them only once.**
 
 
+# PROBLEM:5
+s = {} #what is the type of 's'
+print(type(s)) #output will be =<class 'dict'>
+
+

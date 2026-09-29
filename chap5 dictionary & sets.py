@@ -709,3 +709,13 @@ print(A.isdisjoint(B))
 # Common item present = False
 
 
+# intersection_update():
+# intersection_update() Set ko sirf common items se update karta hai.
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+A.intersection_update(B)
+print(A)
+# OUTPUT={3,4}
+
+

@@ -739,3 +739,18 @@ print(A)
 # OUTPUT={1,2,5,6}
 
 
+# SET LOOP:
+# Set par for loop laga sakte hain.
+
+numbers = {10,20,30,40}
+for number in numbers:
+    print(number)
+
+# OUTPUT:
+# 10
+# 20
+# 30
+# 40
+# Output ka order fixed nahi hota.
+
+

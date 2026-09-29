@@ -654,3 +654,13 @@ print(B.difference(A))
 # A - B != B - A
 
 
+# SYMMETRIC DIFFERENCE:
+# symmetric_difference() dono Sets ke non-common items deta hai.
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+print(A.symmetric_difference(B))
+# OUTPUT={1,2,5,6}
+
+# Common 3 aur 4 result me nahi aayenge.
+# SYMMETRIC DIFFERENCE = Non-common items

@@ -44,8 +44,25 @@
 # print(len(s)) #> **Set does not consider the data type; if the values are equal, it stores them only once.**
 
 
-# PROBLEM:5
-s = {} #what is the type of 's'
-print(type(s)) #output will be =<class 'dict'>
+# # PROBLEM:5
+# s = {} #what is the type of 's'
+# print(type(s)) #output will be =<class 'dict'>
+
+
+# PROBLEM:6
+d = {}
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name:lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name:lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name:lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'c++', 'raj': 'python', 'shivang': 'java script'}
+print(d)
 
 

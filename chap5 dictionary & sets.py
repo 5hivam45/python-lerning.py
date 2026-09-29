@@ -776,3 +776,15 @@ print(numbers)
 # Ab numbers ek List hai.
 
 
+# FROZENSET:
+# frozenset Set ka immutable version hai.
+
+numbers = frozenset([10,20,30])
+print(numbers)
+# OUTPUT=frozenset({10,20,30})
+
+# Frozenset me items add ya remove nahi kar sakte.
+# SET       = Mutable
+# FROZENSET = Immutable
+
+

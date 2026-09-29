@@ -678,3 +678,15 @@ print(A.issubset(B))
 # A = Subset of B
 
 
+# issuperset():
+# issuperset() check karta hai ki ek Set doosre Set ke saare items contain karta hai ya nahi.
+
+A = {1,2,3,4}
+B = {1,2}
+print(A.issuperset(B))
+# OUTPUT=True
+
+# Yahan A ke andar B ke saare items present hain.
+# A = Superset of B
+
+

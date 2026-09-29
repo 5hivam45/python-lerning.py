@@ -82,7 +82,7 @@
 # name = input("Enter friend name:")
 # lang = input("Enter language name:")
 # d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'python', 'raj ': 'java script'}
-# print(d) 
+# print(d)               #THE VALUES ENTERED LATER WILL BE UPDATED
 
 
 # PROBLEM:8 
@@ -101,6 +101,6 @@
 # name = input("Enter friend name:")
 # lang = input("Enter language name:")
 # d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'c++', 'shivang': 'python', 'raj': 'python'}
-# print(d)
+# print(d)               #NOTHING WILL HAPPEN. THE VALUES CAN BE SAME 
 
 

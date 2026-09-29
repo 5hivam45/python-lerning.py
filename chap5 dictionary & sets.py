@@ -729,3 +729,13 @@ print(A)
 # OUTPUT={1,2}
 
 
+# symmetric_difference_update():
+# symmetric_difference_update() Set ko sirf non-common items se update karta hai.
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+A.symmetric_difference_update(B)
+print(A)
+# OUTPUT={1,2,5,6}
+
+

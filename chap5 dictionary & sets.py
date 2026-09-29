@@ -788,3 +788,46 @@ print(numbers)
 # FROZENSET = Immutable
 
 
+# LIST VS TUPLE VS DICTIONARY VS SET:
+# LIST       = Mutable
+# TUPLE      = Immutable
+# DICTIONARY = Mutable
+# SET        = Mutable
+
+# LIST       = []
+# TUPLE      = ()
+# DICTIONARY = {}
+# SET        = {}
+
+# LIST       = Index se access
+# TUPLE      = Index se access
+# DICTIONARY = Key se access
+# SET        = Index se access nahi
+
+# LIST       = Duplicate values allowed
+# TUPLE      = Duplicate values allowed
+# DICTIONARY = Duplicate keys allowed nahi
+# SET        = Duplicate values allowed nahi
+
+
+# IMPORTANT SET POINTS:
+# SET = Collection of unique values
+# SET = Unordered
+# SET = Mutable
+# SET = Duplicate values allowed nahi
+# SET = Indexing nahi hoti
+# SET = Curly brackets {} use karta hai
+# EMPTY SET = set()
+# EMPTY {} = Dictionary
+# SET = Different data types store kar sakta hai
+
+
+# IMPORTANT EXAMPLE:
+numbers = {10,20,20,30,40,40}
+print(numbers)
+# OUTPUT={10,20,30,40}
+
+# Yahan duplicate values automatically remove ho gayi.
+# 20 duplicate tha
+# 40 duplicate tha
+# Set ne duplicate values ko remove kar diya

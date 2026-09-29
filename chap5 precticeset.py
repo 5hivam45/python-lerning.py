@@ -35,3 +35,12 @@
 # s.add("18")
 # print(s)  #OUTPUT WILL BE = {18, '18'}
 
+# PROBLEM:4
+# s = set()
+# s.add(20)
+# s.add(20.0)
+# s.add('20')
+# print(s) #OUTPUT WILL BE = {20, '20'}
+# print(len(s)) #> **Set does not consider the data type; if the values are equal, it stores them only once.**
+
+

@@ -719,3 +719,13 @@ print(A)
 # OUTPUT={3,4}
 
 
+# difference_update():
+# difference_update() first Set se second Set ke common items ko remove karta hai.
+
+# A = {1,2,3,4}
+# B = {3,4,5,6}
+# A.difference_update(B)
+# print(A)
+# OUTPUT={1,2}
+
+

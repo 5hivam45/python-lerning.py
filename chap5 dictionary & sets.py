@@ -754,3 +754,14 @@ for number in numbers:
 # Output ka order fixed nahi hota.
 
 
+# SET CONVERSION:
+# List ko Set me convert kar sakte hain.
+
+numbers = [10,20,20,30,30]
+numbers = set(numbers)
+print(numbers)
+# OUTPUT={10,20,30}
+
+# Set conversion ka use duplicate values remove karne ke liye bhi kar sakte hain.
+
+

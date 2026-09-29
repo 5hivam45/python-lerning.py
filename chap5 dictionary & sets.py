@@ -690,3 +690,22 @@ print(A.issuperset(B))
 # A = Superset of B
 
 
+# isdisjoint():
+# isdisjoint() check karta hai ki dono Sets me koi common item nahi hai.
+
+A = {1,2,3}
+B = {4,5,6}
+print(A.isdisjoint(B))
+# OUTPUT=True
+
+# Agar common item ho:
+
+A = {1,2,3}
+B = {3,4,5}
+print(A.isdisjoint(B))
+# OUTPUT=False
+
+# No common item = True
+# Common item present = False
+
+

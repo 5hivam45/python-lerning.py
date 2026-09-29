@@ -29,4 +29,9 @@
 # print(s)  #OUTPUT WILL BE = {1, 2, 3, 4}
 
 
+# # PROBLEM:3
+# s = set()
+# s.add(18)
+# s.add("18")
+# print(s)  #OUTPUT WILL BE = {18, '18'}
 

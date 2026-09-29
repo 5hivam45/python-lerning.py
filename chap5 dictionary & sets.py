@@ -636,3 +636,21 @@ print(A.intersection(B))
 # INTERSECTION = Common items
 
 
+# DIFFERENCE:
+# difference() first Set me jo items hain lekin second Set me nahi hain, unhe deta hai.
+
+# A = {1,2,3,4}
+# B = {3,4,5,6}
+# print(A.difference(B))
+# OUTPUT={1,2}
+
+# Agar B ka difference A se nikaalenge:
+
+print(B.difference(A))
+# OUTPUT={5,6}
+# A - B = {1,2}
+# B - A = {5,6}
+
+# A - B != B - A
+
+

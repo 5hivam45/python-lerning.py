@@ -765,3 +765,14 @@ print(numbers)
 # Set conversion ka use duplicate values remove karne ke liye bhi kar sakte hain.
 
 
+# SET TO LIST:
+# Set ko List me convert kar sakte hain.
+
+numbers = {10,20,30}
+numbers = list(numbers)
+print(numbers)
+# OUTPUT=[10,20,30]
+
+# Ab numbers ek List hai.
+
+

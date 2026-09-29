@@ -626,3 +626,13 @@ print(A.union(B))
 # UNION = Sabhi unique items 
 
 
+# INTERSECTION:
+# intersection() dono Sets ke common items deta hai.
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+print(A.intersection(B))
+# OUTPUT={3,4}
+# INTERSECTION = Common items
+
+

@@ -50,6 +50,25 @@
 
 
 # PROBLEM:6
+# d = {}
+# name = input("Enter friend name:")
+# lang = input("Enter language name:")
+# d.update({name:lang})
+# name = input("Enter friend name:")
+# lang = input("Enter language name:")
+# d.update({name:lang})
+# name = input("Enter friend name:")
+# lang = input("Enter language name:")
+# d.update({name:lang})
+# name = input("Enter friend name:")
+# lang = input("Enter language name:")
+# d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'c++', 'raj': 'python', 'shivang': 'java script'}
+# print(d)
+
+
+# PROBLEM:7 
+# if the name of 2 friends are same;what will happen to the program in problem 6
+
 d = {}
 name = input("Enter friend name:")
 lang = input("Enter language name:")
@@ -62,7 +81,7 @@ lang = input("Enter language name:")
 d.update({name:lang})
 name = input("Enter friend name:")
 lang = input("Enter language name:")
-d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'c++', 'raj': 'python', 'shivang': 'java script'}
-print(d)
+d.update({name:lang})  #OUTPUT WILL BE = {'ishan': 'c', 'somil': 'python', 'raj ': 'java script'}
+print(d) 
 
 

@@ -98,3 +98,10 @@ print(result)
 # OUTPUT=Allowed
 
 
+# 8: MULTIPLE CONDITIONS:
+# Multiple conditions ke liye Conditional Expression ko chain kar sakte hain.
+
+marks = 75
+result = "Excellent" if marks >= 90 else "Good" if marks >= 60 else "Pass" if marks >= 40 else "Fail"
+print(result)
+# OUTPUT=Good

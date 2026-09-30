@@ -105,3 +105,15 @@ marks = 75
 result = "Excellent" if marks >= 90 else "Good" if marks >= 60 else "Pass" if marks >= 40 else "Fail"
 print(result)
 # OUTPUT=Good
+
+# Isme conditions left to right check hoti hain.
+# Jo first condition True hoti hai, uska result mil jata hai.
+
+
+# 9: NESTED CONDITIONAL EXPRESSION:
+# Ek Conditional Expression ke andar doosra Conditional Expression use karna Nested Conditional Expression kehlata hai.
+
+marks = 82
+result = "Excellent" if marks >= 90 else "Good" if marks >= 60 else "Pass" if marks >= 40 else "Fail"
+print(result)
+# OUTPUT=Good

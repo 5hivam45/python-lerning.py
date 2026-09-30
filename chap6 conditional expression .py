@@ -27,7 +27,7 @@ else:
 print(result)
 # OUTPUT=Adult
 
-Conditional Expression:
+# Conditional Expression:
 
 age = 18
 result = "Adult" if age >= 18 else "Minor"

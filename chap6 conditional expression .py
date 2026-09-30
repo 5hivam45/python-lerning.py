@@ -36,9 +36,20 @@ print(result)
 
 
 # 2: CONDITIONAL EXPRESSION IN PRINT():
-
 # Conditional Expression ko directly print() ke andar bhi use kar sakte hain.
 
 age = 15
 print("Adult" if age >= 18 else "Minor")
 # OUTPUT=Minor
+
+
+# 3: CONDITIONAL EXPRESSION WITH NUMBERS:
+# Conditional Expression se numbers bhi return kar sakte hain.
+
+a = 10
+b = 20
+greater = a if a > b else b
+print(greater)
+# OUTPUT=20
+
+

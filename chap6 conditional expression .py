@@ -53,3 +53,19 @@ print(greater)
 # OUTPUT=20
 
 
+# 4: EVEN OR ODD:
+# Number even hai ya odd, ye check karne ke liye % operator use karte hain.
+# Agar number ko 2 se divide karne par remainder 0 aaye to number Even hota hai.
+# Agar remainder 0 na aaye to number Odd hota hai.
+
+number = 7
+result = "Even" if number % 2 == 0 else "Odd"
+print(result)
+# OUTPUT=Odd
+
+number = 8
+result = "Even" if number % 2 == 0 else "Odd"
+print(result)
+# OUTPUT=Even
+
+

@@ -1,21 +1,21 @@
 # PROBLEM:1
 
-a1 = int(input("Enter number 1: "))
-a2 = int(input("Enter number 2: "))
-a3 = int(input("Enter number 3: "))
-a4 = int(input("Enter number 4: "))
+# a1 = int(input("Enter number 1: "))
+# a2 = int(input("Enter number 2: "))
+# a3 = int(input("Enter number 3: "))
+# a4 = int(input("Enter number 4: "))
 
-if(a1>a2 and a1>a3 and a1>a4):
-    print("Greatest number is a1:",a1)
+# if(a1>a2 and a1>a3 and a1>a4):
+#     print("Greatest number is a1:",a1)
     
-elif(a2>a1 and a2>a3 and a2>a4):
-    print("Greatest number is a2:",a2)
+# elif(a2>a1 and a2>a3 and a2>a4):
+#     print("Greatest number is a2:",a2)
     
-elif(a3>a1 and a3>a2 and a3>a4):
-    print("Greatest number is a3:",a3)
+# elif(a3>a1 and a3>a2 and a3>a4):
+#     print("Greatest number is a3:",a3)
     
-elif(a4>a1 and a4>a2 and a4>a3):
-    print("Greatest number is a4:",a4)
+# elif(a4>a1 and a4>a2 and a4>a3):
+#     print("Greatest number is a4:",a4)
     
 # OUTPUT WILL BE =
 # Enter number 1: 1
@@ -23,4 +23,27 @@ elif(a4>a1 and a4>a2 and a4>a3):
 #    Enter number 3: 3
 #    Enter number 4: 4
 #    Greatest number is a4: 4
+
+
+# PEOBLEM:234
+
+marks1 = int(input("Enter number 1: "))
+marks2 = int(input("Enter number 2: "))
+marks3 = int(input("Enter number 3: "))
+
+# check for total percentage
+total_percentage = (100*(marks1 + marks2 + marks3))/300
+
+if(total_percentage>=40 and marks1>=33 and marks2>=33 and marks3>=33):
+    print("you are passed:",total_percentage)
+    
+else:
+    print("you are failed,try again next year:",total_percentage)
+    
+# OUTPUT WILL BE =
+# Enter number 1: 70
+# Enter number 2: 50
+# Enter number 3: 45
+# you are passed: 55.0
+
 

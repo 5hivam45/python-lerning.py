@@ -15,3 +15,23 @@ print(result)
 # Condition True hone par first value return hogi aur False hone par second value return hogi.
 
 
+# 1: CONDITIONAL EXPRESSION WITH IF-ELSE:
+
+# Normal if-else:
+
+age = 18
+if age >= 18:
+    result = "Adult"
+else:
+    result = "Minor"
+print(result)
+# OUTPUT=Adult
+
+Conditional Expression:
+
+age = 18
+result = "Adult" if age >= 18 else "Minor"
+print(result)
+# OUTPUT=Adult
+
+

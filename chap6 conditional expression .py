@@ -69,3 +69,13 @@ print(result)
 # OUTPUT=Even
 
 
+# 5: CONDITIONAL EXPRESSION WITH COMPARISON:
+# Different comparison operators ke saath bhi Conditional Expression use kar sakte hain.
+
+a = 10
+b = 20
+result = "a is greater" if a > b else "b is greater"
+print(result)
+# OUTPUT=b is greater
+
+

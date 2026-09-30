@@ -79,3 +79,12 @@ print(result)
 # OUTPUT=b is greater
 
 
+# 6: CONDITIONAL EXPRESSION WITH BOOLEAN:
+# Conditional Expression True aur False ke saath bhi use kar sakte hain.
+
+age = 20
+result = True if age >= 18 else False
+print(result)
+# OUTPUT=True
+
+

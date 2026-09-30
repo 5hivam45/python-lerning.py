@@ -88,3 +88,13 @@ print(result)
 # OUTPUT=True
 
 
+# 7: CONDITIONAL EXPRESSION WITH LOGICAL OPERATORS:
+# and, or, not jaise logical operators bhi condition me use kar sakte hain.
+
+age = 20
+has_id = True
+result = "Allowed" if age >= 18 and has_id else "Not Allowed"
+print(result)
+# OUTPUT=Allowed
+
+

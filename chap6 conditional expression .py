@@ -117,3 +117,21 @@ marks = 82
 result = "Excellent" if marks >= 90 else "Good" if marks >= 60 else "Pass" if marks >= 40 else "Fail"
 print(result)
 # OUTPUT=Good
+
+
+# 0: TRUTHY AND FALSY VALUES:
+# Python me kuch values ko condition me directly use karne par False maana jata hai. Inhe Falsy values kehte hain.
+
+# Common falsy values:
+
+# False
+# None
+# 0
+# 0.0
+# ""
+# []
+# ()
+# {}
+# set()
+
+# Baaki generally non-empty/non-zero values ko Truthy maana jata hai.

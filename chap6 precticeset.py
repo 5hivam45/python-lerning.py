@@ -17,11 +17,10 @@ elif(a3>a1 and a3>a2 and a3>a4):
 elif(a4>a1 and a4>a2 and a4>a3):
     print("Greatest number is a4:",a4)
     
-# OUTPUT WILL BE = Enter number 1: 1
-                #    Enter number 2: 2
-                #    Enter number 3: 3
-                #    Enter number 4: 4
-                #    Greatest number is a4: 4
-                
-                
-                
+# OUTPUT WILL BE =
+# Enter number 1: 1
+#    Enter number 2: 2
+#    Enter number 3: 3
+#    Enter number 4: 4
+#    Greatest number is a4: 4
+

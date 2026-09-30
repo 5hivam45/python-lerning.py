@@ -143,3 +143,21 @@ print(result)
 # result = "Name exists" if name else "Name is empty"
 # print(result)
 # OUTPUT=Name is empty
+
+
+# IMPORTANT POINTS:
+# Conditional Expression if-else ka one-line form hai.
+# Isse Ternary Operator bhi kaha jata hai.
+# Syntax: value_if_true if condition else value_if_false
+# Condition True hone par first value return hoti hai.
+# Condition False hone par second value return hoti hai.
+# Isko print() ke andar directly use kar sakte hain.
+# Numbers, strings aur booleans ke saath use kar sakte hain.
+# Comparison operators ke saath use kar sakte hain.
+# and, or, not jaise logical operators ke saath use kar sakte hain.
+# Multiple conditions ko chain kar sakte hain.
+# Ek Conditional Expression ke andar doosra Conditional Expression ho to use Nested Conditional Expression kehte hain.
+# Conditions left to right check hoti hain.
+# First True condition ka result return hota hai.
+# Python me False, None, 0, 0.0, empty string aur empty collections jaise values Falsy hoti hain.
+# Non-zero aur non-empty values generally Truthy hoti hain.

@@ -27,18 +27,18 @@
 
 # PEOBLEM:234
 
-marks1 = int(input("Enter number 1: "))
-marks2 = int(input("Enter number 2: "))
-marks3 = int(input("Enter number 3: "))
+# marks1 = int(input("Enter number 1: "))
+# marks2 = int(input("Enter number 2: "))
+# marks3 = int(input("Enter number 3: "))
 
-# check for total percentage
-total_percentage = (100*(marks1 + marks2 + marks3))/300
+# # check for total percentage
+# total_percentage = (100*(marks1 + marks2 + marks3))/300
 
-if(total_percentage>=40 and marks1>=33 and marks2>=33 and marks3>=33):
-    print("you are passed:",total_percentage)
+# if(total_percentage>=40 and marks1>=33 and marks2>=33 and marks3>=33):
+#     print("you are passed:",total_percentage)
     
-else:
-    print("you are failed,try again next year:",total_percentage)
+# else:
+#     print("you are failed,try again next year:",total_percentage)
     
 # OUTPUT WILL BE =
 # Enter number 1: 70

@@ -135,3 +135,11 @@ print(result)
 # set()
 
 # Baaki generally non-empty/non-zero values ko Truthy maana jata hai.
+
+
+# Example:
+
+# name = ""
+# result = "Name exists" if name else "Name is empty"
+# print(result)
+# OUTPUT=Name is empty

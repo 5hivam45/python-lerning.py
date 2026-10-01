@@ -94,21 +94,35 @@
 
 # PROBLEM:6
 
-marks = float(input("Enter your marks: "))
+# marks = float(input("Enter your marks: "))
 
-if marks >= 90:
-    print("Grade: A")
-elif marks >= 80:
-    print("Grade: B")
-elif marks >= 70:
-    print("Grade: C")
-elif marks >= 60:
-    print("Grade: D")
-elif marks >= 50:
-    print("Grade: E")
-else:
-    print("Grade: F")
+# if marks >= 90:
+#     print("Grade: A")
+# elif marks >= 80:
+#     print("Grade: B")
+# elif marks >= 70:
+#     print("Grade: C")
+# elif marks >= 60:
+#     print("Grade: D")
+# elif marks >= 50:
+#     print("Grade: E")
+# else:
+#     print("Grade: F")
     
 # OUTPUT WILL BE = 
 # Enter your marks: 66.7
 # Grade: D
+
+
+# PROBLEM:7
+
+post = input("Enter your post: ")
+
+if "Harry" in post:
+    print("This post is talking about Harry")
+else:
+    print("This post is not talking about Harry")
+    
+# OUTPUT WILL BE = 
+# Enter your post: shivam
+# This post is not talking about Harry

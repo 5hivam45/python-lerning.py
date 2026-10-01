@@ -63,15 +63,30 @@
 # This message is spam
 
 
-# PROBLEM:
+# PROBLEM:4
 
-username = input("Enter username: ")
+# username = input("Enter username: ")
 
-if len(username) < 10:
-    print("Username contains less than 10 characters")
-else:
-    print("Username contains 10 or more characters")
+# if len(username) < 10:
+#     print("Username contains less than 10 characters")
+# else:
+#     print("Username contains 10 or more characters")
     
 # OUTPUT WILL BE = 
 # Enter username: shivam
 # Username contains less than 10 characters
+
+# PROBLEM:5
+
+names = ["Shivam", "Aman", "Rahul", "Rohit"]
+
+name = input("Enter name: ")
+
+if name in names:
+    print("Name is present in the list")
+else:
+    print("Name is not present in the list")
+    
+# OUTPUT WILL BE = 
+# Enter name: shivam
+# Name is not present in the list

@@ -78,15 +78,37 @@
 
 # PROBLEM:5
 
-names = ["Shivam", "Aman", "Rahul", "Rohit"]
+# names = ["Shivam", "Aman", "Rahul", "Rohit"]
 
-name = input("Enter name: ")
+# name = input("Enter name: ")
 
-if name in names:
-    print("Name is present in the list")
-else:
-    print("Name is not present in the list")
+# if name in names:
+#     print("Name is present in the list")
+# else:
+#     print("Name is not present in the list")
     
 # OUTPUT WILL BE = 
 # Enter name: shivam
 # Name is not present in the list
+
+
+# PROBLEM:6
+
+marks = float(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 80:
+    print("Grade: B")
+elif marks >= 70:
+    print("Grade: C")
+elif marks >= 60:
+    print("Grade: D")
+elif marks >= 50:
+    print("Grade: E")
+else:
+    print("Grade: F")
+    
+# OUTPUT WILL BE = 
+# Enter your marks: 66.7
+# Grade: D

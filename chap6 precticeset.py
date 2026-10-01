@@ -25,7 +25,7 @@
 #    Greatest number is a4: 4
 
 
-# PEOBLEM:234
+# PEOBLEM:2
 
 # marks1 = int(input("Enter number 1: "))
 # marks2 = int(input("Enter number 2: "))
@@ -47,3 +47,17 @@
 # you are passed: 55.0
 
 
+# PROBLEM:3
+
+message = input("Enter your message: ")
+
+if ("make money" in message.lower() or
+    "buy now" in message.lower() or
+    "subscribe" in message.lower() or
+    "click here" in message.lower()):
+    print("This message is spam")
+else:
+    print("This message is not spam")
+# OUTPUT WILL BE = 
+# Enter your message: you buy now
+# This message is spam

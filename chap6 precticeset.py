@@ -49,15 +49,29 @@
 
 # PROBLEM:3
 
-message = input("Enter your message: ")
+# message = input("Enter your message: ")
 
-if ("make money" in message.lower() or
-    "buy now" in message.lower() or
-    "subscribe" in message.lower() or
-    "click here" in message.lower()):
-    print("This message is spam")
-else:
-    print("This message is not spam")
+# if ("make money" in message.lower() or
+#     "buy now" in message.lower() or
+#     "subscribe" in message.lower() or
+#     "click here" in message.lower()):
+#     print("This message is spam")
+# else:
+#     print("This message is not spam")
 # OUTPUT WILL BE = 
 # Enter your message: you buy now
 # This message is spam
+
+
+# PROBLEM:
+
+username = input("Enter username: ")
+
+if len(username) < 10:
+    print("Username contains less than 10 characters")
+else:
+    print("Username contains 10 or more characters")
+    
+# OUTPUT WILL BE = 
+# Enter username: shivam
+# Username contains less than 10 characters

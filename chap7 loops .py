@@ -144,3 +144,48 @@ for i in range(10,2,-2):
 # Har range 0 se start nahi hoti.
 
 
+# 6: FOR LOOP + CALCULATION:
+# Loop ke andar current i value par calculation hoti hai.
+
+for i in range(1,5):
+    print(i + 1)
+
+# OUTPUT=
+# 2
+# 3
+# 4
+# 5
+for i in range(1,5):
+    print(i * 2)
+
+# OUTPUT=
+# 2
+# 4
+# 6
+# 8
+# i + 1, i * 2 etc. har iteration me current i ke according calculate hote hain.
+
+
+# 7: FOR LOOP + IF:
+# for loop ke andar if condition ka use karke specific values ko check kar sakte hain.
+
+for i in range(1,8):
+    if i % 2 == 0:
+        print(i)
+
+# OUTPUT=
+# 2
+# 4
+# 6
+# Yaha i % 2 == 0 ka matlab number even hai.
+
+for i in range(1,8):
+    if i % 2 != 0:
+        print(i)
+
+# OUTPUT=
+# 1
+# 3
+# 5
+# 7
+# Yaha i % 2 != 0 ka matlab number odd hai.

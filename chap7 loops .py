@@ -135,3 +135,12 @@ for i in range(10,2,-2):
 # range(2,6)	2,3,4,5
 # range(2,10,2)	2,4,6,8
 # range(10,2,-2)	10,8,6,4
+
+# IMPORTANT:
+
+# Start value include hoti hai.
+# Stop value include nahi hoti.
+# range(n) me counting 0 se start hoti hai.
+# Har range 0 se start nahi hoti.
+
+

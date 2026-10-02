@@ -207,3 +207,19 @@ for i in range(1,8):
 # IMPORTANT: Sirf if condition loop ko stop nahi karti. Loop stop karne ke liye break chahiye.
 
 
+# 9: CONTINUE IN FOR LOOP:
+# continue current iteration ko skip karta hai aur loop next iteration par chala jata hai.
+
+for i in range(1,6):
+    if i == 3:
+        continue
+    print(i)
+
+# OUTPUT=
+# 1
+# 2
+# 4
+# 5
+# Yaha 3 skip ho gaya.
+
+

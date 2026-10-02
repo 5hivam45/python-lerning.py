@@ -398,3 +398,24 @@ else:
 # Done
 
 
+# 19: BREAK + CONTINUE TOGETHER:
+# Ek hi loop me continue aur break dono use kiye ja sakte hain.
+
+for i in range(1,6):
+    if i % 2 == 0:
+        continue
+    if i == 5:
+        break
+    print(i * 2)
+
+# OUTPUT=
+# 2
+# 6
+
+# Yaha:
+# 2 aur 4 even hain → continue
+# 1 → 1 * 2 = 2
+# 3 → 3 * 2 = 6
+# 5 par break → loop stop
+
+

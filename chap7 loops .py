@@ -326,3 +326,23 @@ for i in range(4,0,-1):
 # * *
 # *
 # Yaha har new row me stars ki quantity decrease hoti hai.
+
+
+# 15: FOR LOOP + IF/ELSE:
+# if/else ka use loop ke andar condition ke according different output dene ke liye kar sakte hain.
+
+for i in range(1,6):
+    if i == 3:
+        print("three")
+    else:
+        print(i)
+
+# OUTPUT=
+# 1
+# 2
+# three
+# 4
+# 5
+# IMPORTANT: if condition True hone par sirf us iteration ka code change hota hai. Loop automatically stop nahi hota.
+
+

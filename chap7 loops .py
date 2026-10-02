@@ -90,3 +90,16 @@ for i in range(5):
 # IMPORTANT: stop value include nahi hoti.
 
 
+# range(start, stop):
+# Isme counting start se start hoti hai aur stop se pehle tak chalti hai.
+
+for i in range(2,6):
+    print(i)
+
+# OUTPUT=
+# 2
+# 3
+# 4
+# 5
+
+

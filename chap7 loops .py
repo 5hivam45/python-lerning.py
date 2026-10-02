@@ -223,3 +223,21 @@ for i in range(1,6):
 # Yaha 3 skip ho gaya.
 
 
+# 10: NESTED LOOPS:
+# Ek loop ke andar doosra loop ho to use nested loop kehte hain.
+
+for i in range(2):
+    for j in range(3):
+        print(i,j)
+
+# OUTPUT=
+# 0 0
+# 0 1
+# 0 2
+# 1 0
+# 1 1
+# 1 2
+
+# Rule:
+# Outer loop ki ek value fix hoti hai aur inner loop apni poori range complete karta hai.
+# Phir outer loop ki next value aati hai.

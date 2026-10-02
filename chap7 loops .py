@@ -243,3 +243,40 @@ for i in range(2):
 # Phir outer loop ki next value aati hai.
 
 
+# 11: NESTED LOOP + CALCULATION:
+# Nested loop me i aur j dono ki values ke saath calculation kar sakte hain.
+
+for i in range(2):
+    for j in range(3):
+        print(i + j)
+
+# OUTPUT=
+# 0
+# 1
+# 2
+# 1
+# 2
+# 3
+for i in range(2):
+    for j in range(3):
+        print(i * j)
+
+# OUTPUT=
+# 0
+# 0
+# 0
+# 0
+# 1
+# 2
+for i in range(2):
+    for j in range(3):
+        print(i * j + 1)
+
+# OUTPUT=
+# 1
+# 1
+# 1
+# 1
+# 2
+# 3
+

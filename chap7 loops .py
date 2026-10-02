@@ -189,3 +189,21 @@ for i in range(1,8):
 # 5
 # 7
 # Yaha i % 2 != 0 ka matlab number odd hai.
+
+
+# 8: BREAK IN FOR LOOP:
+# for loop me bhi break poore loop ko stop kar deta hai.
+
+for i in range(1,8):
+    if i == 5:
+        break
+    print(i)
+
+# OUTPUT=
+# 1
+# 2
+# 3
+# 4
+# IMPORTANT: Sirf if condition loop ko stop nahi karti. Loop stop karne ke liye break chahiye.
+
+

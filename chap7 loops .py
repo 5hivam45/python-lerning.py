@@ -2,3 +2,20 @@
 
 # Loop: Python me loop ka use kisi code ko baar-baar execute karne ke liye hota hai.
 # Python me humne mainly while loop aur for loop padha hai.
+
+
+# 1: WHILE LOOP:
+# while loop tab tak code ko repeat karta hai jab tak condition True hoti hai.
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+#
+# OUTPUT=
+# 1
+# 2
+# 3
+# 4
+# 5
+# Condition False hote hi loop stop ho jata hai.

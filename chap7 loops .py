@@ -435,3 +435,17 @@ for i in range(2):
 # 1 2
 # Yaha inner loop me j == 1 wali iteration skip hoti hai.
 
+# IMPORTANT SUMMARY:
+# Topic	Meaning
+# while	Condition true hone tak loop
+# for	Sequence/range par loop
+# range()	Number sequence generate karta hai
+# break	Poora loop stop karta hai
+# continue	Current iteration skip karta hai
+# if	Condition check karta hai
+# else	Alternative code / loop completion
+# Nested loop	Loop ke andar loop
+# end=" "	Same line me output
+# %	Remainder check karne ke liye
+
+

@@ -71,3 +71,22 @@ for i in numbers:
 # 40
 # 50
 # for loop sequence ke har element par one by one run hota hai.
+
+
+# 5: RANGE():
+# range() numbers ki ek sequence generate karta hai.
+# range(stop):
+# range(stop) me counting 0 se start hoti hai aur stop se pehle tak chalti hai.
+
+for i in range(5):
+    print(i)
+
+# OUTPUT=
+# 0
+# 1
+# 2
+# 3
+# 4
+# IMPORTANT: stop value include nahi hoti.
+
+

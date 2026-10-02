@@ -37,3 +37,22 @@ while i <= 5:
 # break lagte hi loop completely stop ho jata hai.
 
 
+# 3: CONTINUE:
+# continue ka use current iteration ko skip karne ke liye hota hai.
+
+i = 1
+while i <= 5:
+    if i == 3:
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+# OUTPUT=
+# 1
+# 2
+# 4
+# 5
+# continue loop ko stop nahi karta, sirf current iteration skip karta hai.
+
+

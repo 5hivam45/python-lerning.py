@@ -419,3 +419,19 @@ for i in range(1,6):
 # 5 par break → loop stop
 
 
+# 20: NESTED LOOP + CONTINUE:
+# Nested loops me bhi continue use kar sakte hain.
+
+for i in range(2):
+    for j in range(3):
+        if j == 1:
+            continue
+        print(i,j)
+
+# OUTPUT=
+# 0 0
+# 0 2
+# 1 0
+# 1 2
+# Yaha inner loop me j == 1 wali iteration skip hoti hai.
+

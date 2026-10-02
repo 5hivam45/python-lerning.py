@@ -449,3 +449,36 @@ for i in range(2):
 # %	Remainder check karne ke liye
 
 
+# LOOP RULES TO REMEMBER:
+# while → condition check → code → repeat
+# for → next value → code → next value
+# break → STOP THE LOOP
+# continue → SKIP CURRENT ITERATION
+# nested loop → outer ki 1 value → inner loop complete → outer next value
+# for-else → loop normally complete → else runs
+# for + break → loop breaks → else does NOT run
+
+# CHAPTER 7 COMPLETE:TOPICS
+# while loop
+# break
+# continue
+# for loop
+# range()
+# range(start, stop)
+# range(start, stop, step)
+# Negative step
+# for + calculation
+# for + if
+# break in for
+# continue in for
+# Nested loops
+# Nested loops + calculation
+# Pattern printing
+# Increasing pattern
+# Decreasing pattern
+# for + if/else
+# for-else
+# for-else + break
+# for-else + continue
+# break + continue
+# Nested loop + continue

@@ -116,3 +116,16 @@ for i in range(2,10,2):
 # 8
 
 
+# Negative Step:
+# Negative step se counting reverse direction me hoti hai.
+
+for i in range(10,2,-2):
+    print(i)
+
+# OUTPUT=
+# 10
+# 8
+# 6
+# 4
+
+

@@ -280,3 +280,23 @@ for i in range(2):
 # 2
 # 3
 
+# 12: PATTERN PRINTING:
+# Nested loops ka use patterns print karne ke liye bhi kiya ja sakta hai.
+# print("*", end=" ") same line me star print karta hai.
+# print() next line me le jata hai.
+
+for i in range(3):
+    for j in range(3):
+        print("*", end=" ")
+    print()
+
+# OUTPUT=
+# * * *
+# * * *
+# * * *
+
+# IMPORTANT:
+# Outer loop = rows
+# Inner loop = har row me items/stars
+
+

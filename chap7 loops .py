@@ -346,3 +346,19 @@ for i in range(1,6):
 # IMPORTANT: if condition True hone par sirf us iteration ka code change hota hai. Loop automatically stop nahi hota.
 
 
+# 16: FOR LOOP ELSE:
+# Python me for loop ke saath else bhi use kar sakte hain.
+# else tab execute hota hai jab loop normally complete ho jata hai.
+
+for i in range(3):
+    print(i)
+else:
+    print("Done")
+
+# OUTPUT=
+# 0
+# 1
+# 2
+# Done
+
+

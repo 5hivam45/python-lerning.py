@@ -241,3 +241,5 @@ for i in range(2):
 # Rule:
 # Outer loop ki ek value fix hoti hai aur inner loop apni poori range complete karta hai.
 # Phir outer loop ki next value aati hai.
+
+

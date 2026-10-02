@@ -311,5 +311,18 @@ for i in range(4):
 # * *
 # * * *
 # * * * *
+# Yaha har new row me stars ki quantity 1 se increase hoti hai.
 
 
+# 14: DECREASING PATTERN:
+for i in range(4,0,-1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
+# OUTPUT=
+# * * * *
+# * * *
+# * *
+# *
+# Yaha har new row me stars ki quantity decrease hoti hai.

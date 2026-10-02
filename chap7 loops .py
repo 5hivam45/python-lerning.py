@@ -380,3 +380,21 @@ else:
 # break → loop stop → else nahi chalega.
 
 
+# 18: FOR LOOP ELSE + CONTINUE:
+# continue se sirf current iteration skip hoti hai. Agar loop normally complete ho jaye, to else execute hoga.
+
+for i in range(1,6):
+    if i == 3:
+        continue
+    print(i)
+else:
+    print("Done")
+
+# OUTPUT=
+# 1
+# 2
+# 4
+# 5
+# Done
+
+

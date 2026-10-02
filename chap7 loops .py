@@ -129,3 +129,9 @@ for i in range(10,2,-2):
 # 4
 
 
+# RANGE() RULE:
+# range	Values
+# range(5)	0,1,2,3,4
+# range(2,6)	2,3,4,5
+# range(2,10,2)	2,4,6,8
+# range(10,2,-2)	10,8,6,4

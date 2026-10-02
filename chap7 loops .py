@@ -103,3 +103,16 @@ for i in range(2,6):
 # 5
 
 
+# range(start, stop, step):
+# step batata hai ki har iteration me value kitni increase ya decrease hogi.
+
+for i in range(2,10,2):
+    print(i)
+
+# OUTPUT=
+# 2
+# 4
+# 6
+# 8
+
+

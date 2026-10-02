@@ -362,3 +362,21 @@ else:
 # Done
 
 
+# 17: FOR LOOP ELSE + BREAK:
+# Agar loop break ki wajah se stop hota hai, to else execute nahi hota.
+
+for i in range(1,6):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Done")
+
+# OUTPUT=
+# 1
+# 2
+
+# IMPORTANT:
+# break → loop stop → else nahi chalega.
+
+

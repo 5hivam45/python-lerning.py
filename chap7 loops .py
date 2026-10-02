@@ -56,3 +56,18 @@ while i <= 5:
 # continue loop ko stop nahi karta, sirf current iteration skip karta hai.
 
 
+# 4: FOR LOOP:
+# for loop ka use kisi sequence ke elements ko one by one access karne ke liye hota hai.
+
+numbers = [10,20,30,40,50]
+
+for i in numbers:
+    print(i)
+
+# OUTPUT=
+# 10
+# 20
+# 30
+# 40
+# 50
+# for loop sequence ke har element par one by one run hota hai.

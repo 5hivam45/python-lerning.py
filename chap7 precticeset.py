@@ -58,3 +58,33 @@ i += 1
 # 60
 
 
+# QUESTION 4: CHECK PRIME NUMBER
+
+n = int(input("Enter a number: "))
+
+is_prime = True
+
+if n <= 1:
+    is_prime = False
+
+else:
+    for i in range(2, n):
+        if n % i == 0:
+            is_prime = False
+            break
+
+if is_prime:
+    print("Prime number")
+
+else:
+    print("Not a prime number")
+
+# INPUT:
+# Enter a number: 7
+# OUTPUT:
+# Prime number
+# ANOTHER EXAMPLE:
+# INPUT: 8
+# OUTPUT: Not a prime number
+
+

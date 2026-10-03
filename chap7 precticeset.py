@@ -170,3 +170,25 @@ print()
 # * * *
 # * *
 # * * *
+
+
+# QUESTION 10: MULTIPLICATION TABLE IN REVERSE ORDER
+
+n = int(input("Enter a number: "))
+
+for i in range(10, 0, -1):
+ print(n * i)
+
+# INPUT:
+# Enter a number: 5
+# OUTPUT:
+# 50
+# 45
+# 40
+# 35
+# 30
+# 25
+# 20
+# 15
+# 10
+# 5

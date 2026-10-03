@@ -88,3 +88,24 @@ else:
 # OUTPUT: Not a prime number
 
 
+# QUESTION 5: SUM OF FIRST N NATURAL NUMBERS
+
+n = int(input("Enter n: "))
+
+i = 1
+total = 0
+
+while i <= n:
+ total += i
+i += 1
+
+print("Sum =", total)
+
+# INPUT:
+# Enter n: 5
+# OUTPUT:
+# Sum = 15
+# CALCULATION:
+# 1 + 2 + 3 + 4 + 5 = 15
+
+

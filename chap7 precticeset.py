@@ -35,3 +35,26 @@ for name in names:
 # Hello Sachin
 
 
+# QUESTION 3: MULTIPLICATION TABLE USING WHILE LOOP
+
+n = int(input("Enter a number: "))
+i = 1
+while i <= 10:
+  print(n * i)
+i += 1
+
+# INPUT:
+# Enter a number: 6
+# OUTPUT:
+# 6
+# 12
+# 18
+# 24
+# 30
+# 36
+# 42
+# 48
+# 54
+# 60
+
+

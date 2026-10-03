@@ -128,3 +128,16 @@ print("Factorial =", factorial)
 # 5 * 4 * 3 * 2 * 1 = 120
 
 
+# QUESTION 7: PYRAMID STAR PATTERN
+
+n = 3
+
+for i in range(1, n + 1):
+ print(" " * (n - i) + "*" * (2 * i - 1))
+
+# OUTPUT:
+# *
+# ***
+# *****
+
+

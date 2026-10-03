@@ -20,3 +20,18 @@ for i in range(1, 11):
 # 40
 # 45
 # 50
+
+
+# QUESTION 2: GREET NAMES STARTING WITH S
+
+names = ["Harry", "Sohan", "Sachin", "Rahul"]
+
+for name in names:
+  if name.startswith("S"):
+    print("Hello", name)
+
+# OUTPUT:
+# Hello Sohan
+# Hello Sachin
+
+
